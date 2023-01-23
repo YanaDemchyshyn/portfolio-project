@@ -9,6 +9,9 @@
     text-align: center;
     padding: 160px 20px;
 }
+.about-section {
+    padding: 160px 20px;
+}
 .hero p {
     font-family: var(--default-font-family);
     font-size: 36px;
@@ -34,6 +37,11 @@
     line-height: 27px;
     padding: 17px 20px;
 }
+.btn-branding:hover {
+    border: 1px solid var(--branding-color);
+    background-color: transparent;
+    color: var(--branding-color);
+}
 h2 {
     font-size: 64px;
 }
@@ -48,6 +56,10 @@ p {
     border-radius: 4px;
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
+}
+.btn-branding-outline:hover {
+    background-color: var(--branding-color);
+    color: white;
 }
 .project-description {
     padding: 120px 60pxpx;
@@ -66,4 +78,20 @@ p {
         padding: 0;
         text-align: center;
     }
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
+}
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+about-section-content {
+    margin: 30px;
 }
